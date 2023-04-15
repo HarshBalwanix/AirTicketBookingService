@@ -1,7 +1,6 @@
 const {StatusCodes} =require('http-status-codes');
-const { ValidationError } = require('sequelize');
-class validationError extends Error {
-    construtor(error){
+class ValidationError extends Error {
+    constructor(error){
         super();
         let explanation=[];
         error.errors.forEach((err)=>{
