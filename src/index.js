@@ -6,6 +6,8 @@ const {PORT}=require('./config/server-config');
 const apiRoutes =require('./routes/index');
 const db=require('./models/index');
 
+
+
 const setupAndStartServer=()=> {
         app.use(bodyParser.json());
         app.use(bodyParser.urlencoded({extended:true}));
