@@ -3,7 +3,7 @@ const axios=require('axios');
 const {BookingRepository}=require('../repository/index');
 const {FLIGHT_SERVICE_PATH}=require('../config/server-config');
 const { ServiceError } = require('../utils/errors');
-
+/*Tried connecting rabbitMq for message queueing */
 
 class BookingService{
     constructor()
