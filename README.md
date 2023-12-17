@@ -21,6 +21,20 @@ Adjust server and database configurations in `config/server-config.js` to fit yo
 npm start
 ```
 
+## Tech Stack:
+
+**Express.js**: Fast, unopinionated, minimalist web framework for Node.js.
+**Sequelize**: A promise-based Node.js ORM for PostgreSQL, MySQL, MariaDB, SQLite, and Microsoft SQL Server.
+**RabbitMQ**: Message broker for handling asynchronous communication between microservices.
+**Body-parser**: Middleware to parse incoming request bodies in a readable format.
+**Axios**: HTTP client for making requests to external services.
+**dotenv**: Module for loading environment variables from a .env file.
+**http-proxy-middleware**: Express middleware for proxying requests.
+**morgan**: HTTP request logger middleware.
+**Express Rate Limit**: Middleware for limiting repeated requests to public APIs or routes.
+
+
+
 ## Components
 `index.js`
 Express server setup and initialization, including middleware, routes, and server start logic.
