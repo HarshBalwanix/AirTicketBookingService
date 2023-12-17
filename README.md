@@ -22,16 +22,15 @@ npm start
 ```
 
 ## Tech Stack:
-
-**Express.js**: Fast, unopinionated, minimalist web framework for Node.js.
-**Sequelize**: A promise-based Node.js ORM for PostgreSQL, MySQL, MariaDB, SQLite, and Microsoft SQL Server.
-**RabbitMQ**: Message broker for handling asynchronous communication between microservices.
-**Body-parser**: Middleware to parse incoming request bodies in a readable format.
-**Axios**: HTTP client for making requests to external services.
-**dotenv**: Module for loading environment variables from a .env file.
-**http-proxy-middleware**: Express middleware for proxying requests.
-**morgan**: HTTP request logger middleware.
-**Express Rate Limit**: Middleware for limiting repeated requests to public APIs or routes.
+1. **Express.js** : Fast, unopinionated, minimalist web framework for Node.js.
+2. **Sequelize**: A promise-based Node.js ORM for PostgreSQL, MySQL, MariaDB, SQLite, and Microsoft SQL Server.
+3. **RabbitMQ**: Message broker for handling asynchronous communication between microservices.
+4. **Body-parser**: Middleware to parse incoming request bodies in a readable format.
+5. **Axios**: HTTP client for making requests to external services.
+6. **dotenv**: Module for loading environment variables from a .env file.
+7. **http-proxy-middleware**: Express middleware for proxying requests.
+8. **morgan**: HTTP request logger middleware.
+9. **Express Rate Limit**: Middleware for limiting repeated requests to public APIs or routes.
 
 
 
